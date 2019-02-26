@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  height: 100vh;
+  background: #1d1d1d;
+  -webkit-transition: background-color 2s ease-in-out;
+  transition: background-color 2s ease-in-out;
+}
+
+#progress {
+  height: 1px;
+  background: gray;
+  position: absolute;
+  top: 45%;
+  opacity: 1;
+  z-index: 2;
+  -webkit-transition: width 0.1s ease;
+  transition: width 0.1s ease;
+}
+/*# sourceMappingURL=main.css.map */
